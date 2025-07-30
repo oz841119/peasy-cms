@@ -4,5 +4,18 @@
   },
   "website": {
     "title": "Dashboard"
+  },
+  "dashboard": {
+    "dashboard": "Dashboard"
+  },
+  "common": {
+    "switchTheme": "Switch Theme",
+    "logout": "Logout",
+    "language": "Language",
+    "account": "Account",
+    "menu": "Menu",
+    "articleManagement": "Article Management",
+    "articleList": "Article List",
+    "articleCreate": "Create Article"
   }
 }

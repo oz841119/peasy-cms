@@ -5,8 +5,7 @@ export default function HomePage() {
   const t = useTranslations();
   return (
     <div>
-      <h1>{t("website.title")}</h1>
-      <Link href="/about">{t("website.title")}</Link>
+      <Link href="/admin">{t("dashboard.dashboard")}</Link>
     </div>
   );
 }

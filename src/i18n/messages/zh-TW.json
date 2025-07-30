@@ -4,5 +4,18 @@
   },
   "website": {
     "title": "控制面板"
+  },
+  "dashboard": {
+    "dashboard": "控制面板"
+  },
+  "common": {
+    "switchTheme": "切換主題",
+    "logout": "登出",
+    "language": "語言",
+    "account": "帳號",
+    "menu": "選單",
+    "articleManagement": "文章管理",
+    "articleList": "文章列表",
+    "articleCreate": "新增文章"
   }
 }
