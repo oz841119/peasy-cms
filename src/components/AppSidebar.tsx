@@ -1,10 +1,10 @@
 "use client";
 
-import { BookOpen, Command } from "lucide-react";
+import { Command } from "lucide-react";
 import { useTranslations } from "next-intl";
 import type * as React from "react";
 import { useMemo } from "react";
-import { NavMenu } from "@/components/NavMenu";
+import { Navigation } from "@/components/Navigation";
 import { NavUser } from "@/components/NavUser";
 import {
   Sidebar,
@@ -27,7 +27,6 @@ const useMenu = () => {
         items: [
           {
             title: t("common.articleManagement"),
-            icon: BookOpen,
             url: `${adminBasePath}/article`,
             isActive: true,
             items: [
@@ -79,7 +78,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
       </SidebarHeader>
       <SidebarContent>
         {menu.map((item) => (
-          <NavMenu key={item.label} label={item.label} items={item.items} />
+          <Navigation key={item.label} label={item.label} items={item.items} />
         ))}
       </SidebarContent>
       <SidebarFooter>
